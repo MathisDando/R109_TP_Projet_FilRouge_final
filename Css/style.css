@@ -120,3 +120,59 @@ footer {
   font-size: 14px;
   color: #666666;
 }
+
+@media (max-width: 600px) {
+  header {
+      padding: 20px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  body {
+    margin: 0 5%;
+ }
+
+  .titre {
+      margin-bottom: 20px;
+  }
+
+  .logo {
+      justify-content: center;
+      position: static;
+      margin-top: 10px;
+  }
+
+  .text {
+      padding: 30px 20px;
+      max-width: 100%;
+      text-align: left;
+  }
+
+  .text h1 {
+      font-size: 30px;
+  }
+
+  .text p {
+      font-size: 16px;
+      color: #5b6a71;
+  }
+
+  .image {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+  }
+  .image img:nth-child(n + 10) {
+      display: none;
+  }
+
+ 
+  .filter-bar {
+      gap: 3px;
+      padding: 5px 0;
+  }
+
+  .filter-bar a {
+      font-size: 9px;
+      padding: 2px 4px;
+}
+}
