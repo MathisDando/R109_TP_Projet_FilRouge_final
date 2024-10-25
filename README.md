@@ -7,3 +7,8 @@
 2. Utiliser Html et Css
 3. Actualiser les images via une api
 4. Changer la vu en fonction des appareils (tablette/téléphone)
+
+## Languages utilisé:
+CSS
+HTLM
+Font Awesome
